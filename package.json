@@ -1,0 +1,16 @@
+{
+  "name": "translate-baidu-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "baidu-translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "md5": "^2.3.0"
+  }
+}
