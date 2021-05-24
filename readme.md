@@ -8,7 +8,7 @@
 
 ## 使用方法
 
-1. 下载本项目文件夹到本地。地址为：
+1. 下载或克隆（`git clone`）本项目文件夹到本地。地址为：
 
    1. 国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git
    2. 海外：https://github.com/Humoonruc/translate-pdf-node.git
