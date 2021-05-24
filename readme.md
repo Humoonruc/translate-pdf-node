@@ -8,10 +8,12 @@
 
 ## 使用方法
 
-1. 下载或克隆（`git clone`）本项目文件夹到本地。地址为：
+1. 下载或克隆（`git clone`）项目文件夹到本地。项目地址为：
 
    1. 国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git
    2. 海外：https://github.com/Humoonruc/translate-pdf-node.git
+
+   ![git-clone](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/git-clone.gif)
 
 2. 在百度翻译开放平台（https://api.fanyi.baidu.com/product/11）申请通用翻译API（每月免费额度为2000万字符），获得 APP ID和密钥
 
@@ -57,9 +59,7 @@
    npm install
    ```
 
-   安装结果：
-
-   ![image-20210524184907524](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210524184907524.png)
+   ![npm-install](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/npm-install.gif)
 
 6. 安装所需的 python 第三方库：继续在终端输入
 
@@ -77,7 +77,11 @@
    node index.js
    ```
 
+   ![node-index](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/node-index.gif)
+   
    然后等待程序运行完毕即可。翻译完成的 md 文件位于 `/md/translate-result/`子文件夹中，这是一种文本文件，用记事本即可打开。
+   
+   ![translated](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/translated.gif)
 
 ## 程序流程
 
