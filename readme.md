@@ -20,7 +20,7 @@
    ```js
    // config.js
    
-   module.exports.BAIDU_TRANSLATE_ID = '百度翻译APP ID';
+   module.exports.BAIDU_TRANSLATE_ID = 'APP ID';
    module.exports.BAIDU_TRANSLATE_KEY = '密钥';
    module.exports.BAIDU_TRANSLATE_API_URL = 'http://api.fanyi.baidu.com/api/trans/vip/translate';
    module.exports.SOURCE_LANGUAGE = 'en'; // 要翻译的 pdf 源文件语言
@@ -57,11 +57,17 @@
    npm install
    ```
 
+   安装结果：
+
+   ![image-20210524184907524](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210524184907524.png)
+
 6. 安装所需的 python 第三方库：继续在终端输入
 
    ```shell
    pip install pdfminer.six
    ```
+
+   ![image-20210524185248516](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210524185248516.png)
 
 7. 将想要翻译的外文 pdf 文件放入项目文件夹的 `/pdf/` 子文件夹
 
@@ -81,9 +87,7 @@
 4. 使用 Node 模块`x2js`，将 xml 文件转换为易操作的 json 文件。
 5. 从 json 中提取结构化的字符信息，重新整合为行、段、页、篇，并保存为 txt 纯文本文件。
 6. 运用正则表达式解析文本，从 txt 文件中提取文章主体（不要参考文献），以及 abstract、keywords、Introduction、conclusion 等重要信息，保存为 md 文件。
-7. 调用云计算商提供的翻译 api[^api]，翻译英文文本，将翻译结果保存为 md 文件。
-
-[^api]: 翻译 API 可以用百度的，最便宜，每月有 200 万字符的免费额度。
+7. 调用云计算商提供的翻译 api，翻译英文文本，将翻译结果保存为 md 文件。
 
 本项目中，原始 pdf 文档的格式经历了如下变化：pdf->xml->json->txt->md，最大限度地保留了 pdf 文本的结构信息。
 
@@ -91,4 +95,10 @@
 
 ## 优化方向
 
-以后有时间了考虑实现网页版。
+这一版相比上一版有若干变化。主要是因为使用的编程语言，从 Python 切回了我最熟悉的 JavaScript，写起来顺手了很多。因此这一版程序在逻辑性和可读性上都大大增强了，其中的一些函数还可以拿到其他场合实现复用。
+
+但这个小工具使用起来仍然不是太方便，安装流程也不够傻瓜化。以后假如有时间，考虑写成网页版，用户输入自己的账号密码，把 PDF 往网页里一扔，过一会儿就能返回可供下载的结果，这是最好的。
+
+### 但这貌似是砸某些人的饭碗呀！
+
+各大公司的 PDF 全文翻译服务卖到现在这种高价，简直无良。希望这个价格以后能降下来，我又何必做这种小工具呢。
