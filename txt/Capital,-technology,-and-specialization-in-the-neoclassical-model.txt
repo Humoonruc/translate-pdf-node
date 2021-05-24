@@ -1,0 +1,932 @@
+Journal of International Economics 83 (2011) 229–242
+Contents lists available at ScienceDirect
+Journal of International Economics
+j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / j i e
+Capital, technology, and specialization in the neoclassical model
+Serge Shikher
+Department of Economics, Suffolk University, MA, United States
+a r t i c l e
+i n f o
+a b s t r a c t
+Article history: Received 1 September 2007 Received in revised form 5 November 2010 Accepted 9 November 2010 Available online 2 December 2010
+JEL classiﬁcations: F1 F11 F17
+Keywords: International trade Specialization Comparative advantage Technology Heckscher–Ohlin model Computable models
+1. Introduction
+The paper studies the effects of technology and capital stock on trade using simulation. For this purpose, the paper develops and evaluates a model that is distinguished by its use of the Eaton–Kortum framework to explain intra-industry trade instead of the usual Armington assumption. It is found that the magnitudes and in many cases signs of the effects of capital stock and technology on specialization are very country-speciﬁc. This implies that the regression studies that estimate cross-country average effects have limited value. Looking at the volume of trade, the paper ﬁnds that capital endowments and industry-level comparative advantages have little effect on the volume of trade — the reduced inter-industry trade between more similar countries is compensated by increased intra-industry trade. Producer heterogeneity, on the other hand, has a signiﬁcant effect on the volume of trade. The paper evaluates the accuracy of the model's forecasts by performing historical simulations for 1975–95, with the results showing that the model's predictions are accurate.
+© 2010 Elsevier B.V. All rights reserved.
+Why do some countries specialize in producing machinery, while others specialize in making textiles? Trade theory answers this question by providing several possible determinants of specialization. Of these determinants, technology and factor endowments play an important role in explaining the pattern of specialization around the world in the neoclassical model of trade.
+Most of the previous empirical studies that focused on the effects of technology and factor endowments on specialization have used the estimation approach. Leamer and Levinsohn (1995) and Harrigan (2003) provide excellent reviews of these studies. This paper, on the other hand, uses a simulation approach.
+To perform the simulations, the paper develops a computable model of trade that has neoclassical features such as multiple industries, perfectly competitive markets, constant returns to scale, and several factors that are mobile between industries, but ﬁxed for a country. The model allows for factor endowment differences across countries and technological and factor intensity differences across industries. There- fore, the model combines the technological (Ricardian) and factor endowment (Heckscher–Ohlin) reasons for specialization.
+A key feature of the model is that unlike other computable models of trade it does not require the Armington assumption to explain intra- industry trade.1 Instead, it relies on the framework of Eaton and Kortum (2002) to motivate intra-industry trade by producer heterogeneity. The
+E-mail address: serge.shikher@suffolk.edu.
+1 Popular computable models of trade include GTAP and the Brown–Deardorff–Stern
+model.
+0022-1996/$ – see front matter © 2010 Elsevier B.V. All rights reserved. doi:10.1016/j.jinteco.2010.11.006
+Eaton–Kortum framework provides compact and elegant expressions for industry price levels and bilateral trade ﬂows.2
+One of the major results obtained in this paper is that the effects of capital stock and technology on specialization are very country- speciﬁc. The magnitudes and in many cases the directions of these effects are different across countries.3 One implication of this result is that cross-country average effects, such as those produced by some regression studies, are of limited usefulness.4
+While the simulation analysis provides many insights,
+it is necessary to make sure that the predictions of the simulation model are accurate. Therefore, the second part of the paper is dedicated to evaluating the quality of the model's forecasts.
+To perform such an evaluation, the model is asked to predict the changes in specialization that occurred during 1975–95, given the changes in countries' capital stocks that occurred during that time.5
+2 Other multiple-industry models that incorporate the methodology of Eaton and
+Kortum include Shikher (2004b), Costinot and Komunjer (2006), and Chor (2009).
+3 The model is parametrized using 1989 data for 8 industries of 19 OECD countries. 4 Such regressions will exhibit high sensitivity to the sample composition. Also, the cross-country average effects are not representative or typical of any country, cannot be used to forecast changes in specialization in any speciﬁc country, and should not be used to infer the importance of technology or factor endowments on specialization (since large positive changes in some countries can offset large negative changes in other countries resulting in a cross-country average of near zero with the false implication that a particular factor is not important for specialization).
+5 The focus of the evaluation is on the ability of the model to accurately forecast changes in specialization in response to changes in the capital stock. As discussed in Section 4, a commonly used approach to evaluating a model – ﬁtting it do data and evaluating the ﬁt – is problematic with this model.230
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+The predictions are evaluated by comparing the simulated and actual changes in specialization and by using the equations of Harrigan (1997) to estimate the semielasticities of specialization with respect to capital stock. The latter approach makes it possible to control for the determinants of specialization other than the capital stock in the actual data. Both approaches show that the model's predictions are accurate.
+The third part of the paper looks at the effects of capital stock and technology on the volume of trade. The results show that industry-level technological comparative advantages and factor endowment differ- ences have little effect on the volume of trade, in line with our current understanding of their effects. On the other hand, the volume of trade is dramatically affected by the degree of producer heterogeneity.
+The remainder of the paper is structured as follows. Section 2 describes the simulation model and the assignment of the parameter values. Section 3 presents the results of the simulation analysis. Section 4 evaluates the ability of the model to make accurate predictions. Section 5 looks at the volume of trade. Section 6 concludes.
+2. Simulation methodology
+The simulation model
+is a neoclassical model of trade with multiple industries, constant returns to scale, perfectly competitive markets, and several factors that are mobile across industries, but not internationally. Each industry is characterized by a particular level of technology, set of factor intensities, and a demand function. Each country has its own set of factor endowments. Transport costs explain the same-good price differentials across countries. Countries may have different tastes.
+While other computable models of trade have to rely on the Armington (1969) assumption to explain intra-industry trade, this model instead uses the Eaton and Kortum's (2002) methodology on the industry level. Within each industry, there is a continuum of goods produced with different productivities.6 Production of each good has constant returns to scale, and goods are priced at marginal cost.
+At the same time, all producers within an industry draw from the same technology curve, have the same factor intensities, face the same demand shares for intermediate and ﬁnal goods, and are subject to the same transport costs. Since factors are mobile across industries, all producers in a country face the same factor prices.
+The Eaton–Kortum framework is chosen to model industry-level trade for several reasons. First, it provides compact expressions for industry price indices and bilateral trade volumes based on the assumptions of constant returns to scale and perfect competition. Second, it allows easy incorporation of trade costs that explain price differences across countries.
+Third, as was already mentioned, their framework makes it possible to avoid using the Armington assumption to explain bilateral trade. Compared to computable models that rely on the Armington assump- tion, the Eaton–Kortum methodology does not require estimation of substitution elasticities between domestic and imported goods and does not give countries monopoly power over their products.7
+Another feature of the simulation model is that it incorporates forward and backward linkages between industries (Hirschman, 1958). It is known that a large portion of intermediate goods consumed by an industry comes from other industries. As evidenced in Table 3, even with a coarse two-digit industry classiﬁcation only 20–50% of intermediate goods come from own industry. These linkages mean, for example, that higher demand for machinery products increases demand for interme- diate goods made by the metal-producing industry.
+6 The existence of productivity differences across producers has been described in Bernard and Jensen (1995, 1999), Aw et al. (1998), Clerides et al. (1998), Bernard et al. (2003), and Eaton et al. (2004).
+7 See Brown (1987), Panagariya and Duttagupta (2001), and McDaniel and Balistreri
+(2003) for discussions of difﬁculties with using the Armington assumption.
+Section 2.1 presents the model while Section 2.2 explains how the parameter values are obtained. The simulations and their results are described in Section 3.
+There are N countries, J industries, and two factors of production: capital and labor. Subscripts i and n refer to countries while subscripts j and m refer to industries.
+The industry cost function is
+2.1. Model
+cij = r
+jβ α i w i
+jρ1−α ij
+j−β
+j;where ri is the return to capital in country i, wi is the wage, αj ≥ 0 is the capital share in industry j, βj ≥ 0 is the labor share, and ρij is the price of intermediate inputs used in industry j of country i. It is assumed that industries mix intermediate inputs in a Cobb–Douglas fashion, so that the price of inputs ρij is the Cobb–Douglas function of industry prices:
+J ij = ∏ ρ m = 1
+η p
+jm im
+;where ηjm ≥ 0 is the share of industry m goods in the intermediate inputs of industry j, such that ∑ m = 1 J
+ηjm = 1, ∀ j.
+Intra-industry production, trade, and prices are modeled using the framework of Eaton and Kortum (2002). In each industry there is a continuum of goods with each good indexed on the interval [0, 1] by l and produced with its own productivity. Productivities znj(l) are the result of the R&D process and are probabilistic, drawn independently from the Fréchet distribution with parameters Tij and θ: Fij(z) = e− Tijz− θ, where TijN 0 and θ N 1.8 Consumers have CES preferences over this continuum of goods within an industry with the elasticity of substitution σ N 0.
+The price of each good l of industry j produced in country i and delivered to country n is pnij(l) = cijdnij/zij(l), where dnij is the Samuelson's (“iceberg”) transportation cost of delivering goods of industry j from country i to country n.9 The distribution (cdf) of prices pnij is Gnij(p) = 1 − Fij(cijdnij/p) = 1 − e− Tij(cijdnij)− θ
+θ. p
+In country n, consumers buy from the lowest-cost supplier, so the price of good l in country n is pnj(l) = min{pnij(l), i = 1,..., N}. The [1 − Gnij(p)] = 1 − e− Φnjpθ, is Gnj(p) = 1 − ∏ i = 1 distribution of pnj Tij(cijdnij)− θ summarizes technology, input costs, where Φnj =∑ i = 1 and transport costs around the world.
+NNThe exact price index for the within-industry CES objective ð 1 = 1−σ
+(cid:1)
+(cid:3)
+Þi1 = 1−σ ð
+Þfunction is pnj = ∫1 h E P1−σ nj
+ð 1 = 1−σ
+i0Þ= γΦ−1 = θ
+nj
+pnj lð Þ1−σ
+dl
+h = ∫
+∞0p1−σ nj dGnj pð Þ Þ=θ
+, where γ≡Γ θ + 1−σ
+ð ð
+ð Þ1 = 1−σ
+Þis a
+constant and Γ is the Gamma function.10 This price index can also be written as
+"N pnj = γ ∑ i = 1
+(cid:4)
+Tij dnijcij
+#−1 = θ
+(cid:5)−θ
+:ð1Þ
+ð2Þ
+=ð3Þ
+8 Kortum (1997) and Eaton and Kortum (1999) provide microfoundations for this approach. Parameter Tij governs the mean of the distribution, while parameter θ, which is common to all countries and industries, governs the variance. The support of the Fréchet distribution is (0, ∞).
+9 To receive $1 of product in country n requires sending dnij ≥ 1 dollars of product from country i. By deﬁnition, domestic transport costs are set to one: dnnj ≡ 1. Trade barriers result in dnij N 1 . Note that trade costs are not restricted to be symmetric (dnij can be different from dinj). Waugh (2007) studies the effects of the asymmetry of trade costs. 10 The last equality obtains as follows. Let x = − lnp and t = σ − 1. The moment- generating function for x is E[etx] = Φt/θΓ(1 − t/θ) (Johnson and Kotz, 1970). Therefore, E p−t ½
+Þ−1 = t (footnote 18 in Eaton and Kortum (2002)).
+(cid:2)−1 = t = Φ−1 = θΓ 1−t =θ
+ðS. Shikher / Journal of International Economics 83 (2011) 229–242
+231
+Plugging Eqs. (2) and (3) into Eq. (1), the cost equation becomes
+cij = r
+jβ α i w i
+j" N γ−θ ∑ n = 1
+J ∏ m = 1
+ðTnm dinmcnm
+Þ−θ
+(cid:4)
+# −
+jm 1−α η j θ
+−β j
+(cid:5)
+:ð4Þ
+Parameter T governs the average productivity of producers in an industry. Therefore, it determines the comparative advantage across industries. For example, country n has a comparative advantage in industry j if Tnj/Tnm N Tij/Tim.11 Parameter θ determines the comparative advantage across goods within an industry. A lower value of θ means leading to more dispersion of productivities among producers, stronger forces of within-industry comparative advantage.
+(cid:8)
+The Eaton–Kortum (EK) framework makes it possible to derive expressions for the industry-level bilateral trade volumes. The probability that a producer from country i has the lowest price in country n for good l is πnij≡Pr pnij lð Þ≤min pnsj lð Þ; s≠i ∏s≠i × (cid:9) (cid:8) (cid:10) dGnij pð Þ = Tij γcijdnij = pnj 1−Gnsj pð Þ . Since there is a continuum of goods on the interval [0, 1], this probability is also the fraction of industry j goods that country n buys from i. It is also the fraction of n's expenditure spent on industry j goods from i: Xnij/Xnj, where Xnij is the spending of country n on industry j goods produced in country i and Xnj is the total spending in country n on industry j goods.12 Therefore,
+∞ = ∫ 0
+(cid:11)−θ
+(cid:9) (cid:7)
+(cid:6)
+πnij =
+= Tij
+Xnij Xnj
+γcijdnij pnj
+!−θ
+:Industry output Q ij is determined as follows. The goods market
+clearing equation is
+N Q ij = ∑ n = 1
+N Xnij = ∑ n = 1
+πN nijXnj = ∑ n = 1
+(cid:4)
+πnij Znj + Cnj
+(cid:5) ;
+where Znj and Cnj are amounts spent by country n on industry j 's intermediate and ﬁnal (consumption) goods, respectively.
+Total spending on intermediate goods made by industry j, Znj is
+∑ m
+Znmj = ∑ m
+pnjMnmj = ∑ m
+ηmj
+ρnmMnm = ∑ m
+ðmj 1−α η m β
+m−β
+ÞmwnLnm
+;where Znmj is the amount spent by industry m on intermediate goods from industry j, M is the quantity of intermediate goods, and Lnm is the quantity of labor employed in industry m of country n.13
+Since production is Cobb–Douglas, industry factor employments
+are given by
+Kij =
+and Lij =
+αjQ ij ri
+βjQ ij wi
+:Factors of production can be freely and instantaneously moved across industries within a country, subject to the factor markets clearing constraints
+J ∑ j = 1
+J Kij = Ki and ∑ j = 1
+Lij = Li
+;ð5Þ
+ð6Þ
+ð7Þ
+ð8Þ
+ð9Þ
+where country endowments Ki and Li are given. Factor prices ri and wi are determined by the market.
+Consumer preferences are two-tier: Cobb–Douglas across indus- tries and, as previously mentioned, CES across goods within each industry. Because preferences across industries are Cobb–Douglas, each country spends a constant proportion of its total income on goods from each industry: Cnj = ψnjYn, where Yn is the total income (GDP) of country n and ψnj ≥ 0 is a parameter of the model.14,15
+Plugging the expressions for intermediate Eq. (7) and consump-
+tion spending into Eq. (6), the output equation becomes:
+!!N Q ij = ∑ n = 1
+πnij
+J ∑ m = 1
+ðmj 1−α η m β
+m−β
+ÞmwnLnm
++ ψ
+njYn
+:ð10Þ
+Due to data limitations, only the manufacturing industries are modeled. The nonmanufacturing sector's price index is normalized to 1 and its purchases of the manufacturing intermediates are treated as the ﬁnal consumption. Country income Yi is the sum of manufacturing income Yi
+M and nonmanufacturing income Yi
+O:
+Yi = Y M
+i + Y O
+i = riKi + wiLi + Y O
+i:ð11Þ
+The nonmanufacturing income is assumed to be a constant O = ξiYi, where ξi ≥ 0 is a parameter proportion of the GDP, so that Yi of the model. Factor stocks Ki and Li are speciﬁc to manufacturing. Capital and labor are not mobile between the manufacturing and nonmanufacturing sectors.16
+The model is given by Eqs. (3)–(5) and Eqs. (9)–(11). Model parameters are αj, βj, ηjm, θ, ψnj, dnij, Tnj, Ki, Li, and ξi. The model solves for all other variables including all prices, industry factor employ- ments, output, and trade.17
+2.2. Assigning parameter values
+Model parameters are obtained using three methods. Some parameters are taken from data or literature. Transport costs dnij are estimated from a gravity equation. The rest of the parameters are obtained by ﬁtting a subset of model equations to domestic data.
+This paper uses data for eight 2-digit industries of nineteen OECD countries. The countries were chosen based on the availability of data. The industries are listed in Table 2 and the countries are listed in Table 5a. The base year for the simulation model is 1989 because this is the year for which all the necessary data is available.18
+Section 2.2.1 describes parameters which are taken from data or literature. Estimation of transport costs is discussed in Section 2.2.2. The procedure for obtaining the ﬁtted parameters and its results are presented in Section 2.2.3. For convenience, the parameters are summarized in Table 1.
+2.2.1. Parameters taken from data and literature
+Data for industry shares ηjm was obtained from the OECD input– output tables. These tables exist only for some of the countries in the sample and only for select years. Speciﬁcally, the input–output tables for Canada, France, Germany, Japan, U.K., and the U.S. are available for 1990, and Australia for 1989. Input–output tables for these countries result in very similar shares ηjm. The shares used in simulations are averages across these countries.
+11 Note that parameter T is not the same as total factor productivity (TFP). T is an exogenous parameter of the Fréchet distribution. TFP, on the other hand, is endogenous. Finicelli et al. (2007) derive the analytic relationship between the T of an industry and the mean productivity of the ﬁrms that actually operate in that industry. 12 This is true because conditional on the fact that country i actually supplies a particular good, the distribution of the price of this good is the same regardless of the source i. 13 The ﬁrst equality in (7) comes from (2) while the second comes from (1).
+14 Consumption C includes private consumption and government consumption. 15 The model closure assumes that there are no deﬁcits. 16 This speciﬁcation is also consistent with factor mobility between manufacturing and nonmanufacturing if the factors are used in the same proportions in the two sectors. 17 The model has N2J + 5NJ + 3N unknowns and the same number of equations. The unknowns in the model are Xnij, cnj, pnj, Knj, Lnj, Qnj, Yn, wn, and rn. 18 The data and Matlab programs used in this paper can be downloaded from http:// web.cas.cas.suffolk.edu/economics/shikher.232
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Table 1 List of the parameters of the simulation model.
+Name
+Description
+How obtained
+αj, βj ηjm θ
+dnij ψnj Tnj Kn, Ln ξn
+factor shares intermediate goods shares technology parameter trade costs consumption shares technology parameter factor endowments nonmanufacturing share
+taken from data input–output tables 8.28, 3.6, 13 (see text) estimated from trade and output data ﬁtted to output and spending data ﬁtted to output and spending data ﬁtted to output and spending data ﬁtted to output and spending data
+Table 2 Shares of factors and inputs in output.
+Capital (αj)
+Labor (βj)
+Inputsa
+Cap. in VAb
+Industry
+Food Textile Wood Paper Chemicals Nonmet. Metals Machinery
+0.062 0.058 0.064 0.081 0.082 0.106 0.086 0.071
+0.103 0.201 0.182 0.185 0.115 0.185 0.133 0.186
+0.835 0.741 0.755 0.733 0.803 0.709 0.781 0.743
+0.37 0.22 0.26 0.31 0.42 0.36 0.39 0.28
+a The share of intermediate inputs is (1 − αj − βj). b The share of capital in value added is αj / (αj + βj).
+Industry-level labor shares in output are taken from UNIDO, and the average of all countries in the sample is used in simulations. Capital shares in output are obtained using ratios of capital to labor shares from the dataset described in Shikher (2004a).19 The labor shares are multiplied by these ratios to obtain capital shares.
+Factor and intermediate input shares are shown in Table 2. Intermediate inputs constitute by far the largest part of output, with shares around 0.7–0.8. Labor shares are around 0.1–0.2 and capital shares are between 0.05–0.1.
+To present factor shares in a more familiar form, the last column of Table 2 shows implicit capital shares in value added, calculated as αj/ (αj + βj). These shares vary from 0.22 to 0.415 across industries. Textile and Wood are the two most labor-intensive industries while Chemicals and Metals are the two most capital-intensive industries. Industry shares for intermediate goods are shown in Table 3. Uses of own intermediate goods are in bold. Own intermediate goods always constitute the largest share of all manufacturing inputs, but never make up more than a half of all inputs. The share of manufacturing inputs varies between 0.27 in the Food industry to 0.96 in the Chemicals industry. The Food, Nonmetals, and Wood industries have the largest shares of nonmanufacturing inputs, most likely agricultural and natural resource products.
+The value of the technology distribution parameter θ is taken from Eaton and Kortum (2002), where it is estimated to be 8.28 using trade and price data. To make sure that simulation results are not sensitive to this choice, the analysis is also performed using two additional values of θ: 3.6 and 13. The lower value is the result of Eaton and Kortum's (2002) alternative estimation procedure that uses data on
+19 The shares in that paper are carefully and meticulously calculated from the U.S. and Brazilian data. Though Brazil is not one of the countries in the dataset of this paper, its factor shares are representative of the shares of the poorer countries in the dataset. The capital shares in poorer countries tend to be slightly larger than the capital shares in richer countries. So, given the assumption of equal factor shares in all countries, the average of U.S. and Brazilian shares is a good approximation to the average of shares of all countries in the dataset, which includes both rich and poorer countries (Greece, Korea, Mexico, Portugal, and Turkey). The accuracy of approxima- tion is supported by the high correlation between the predicted and actual factor employments in the base year (see Section 2.2.3).
+national R&D stocks, education, and wages. The upper value is explained below.
+In the next section, it will be shown that the value of θ affects the estimates of the transport costs, as can be seen in Eq. (16). Higher value of θ results in lower estimates of the transport costs.20 While θ = 8.28 implies that the average transport cost between countries is 2.27, θ = 3.6 implies an improbably large value of 6.6, which is why Eaton and Kortum (2002) themselves prefer the 8.28 estimate.
+Anderson and van Wincoop (2004) roughly estimate the average international transport cost between OECD countries to be around 1.7 (excluding local distribution margins, see pp. 692–693). The value of θ that implies this average transport cost is 13, which is taken as the third estimate of θ. Therefore, the interval [3.6, 13] is taken to represent the range of plausible values of θ.
+Simulations show that the choice of θ (within the above range) has little effect on the results or conclusions presented in this paper. 21 So, only the results for θ = 8.28 are presented because (a) it is the main estimate of Eaton and Kortum (2002), (b) it is located in the middle of the plausible range, and (c) in the interest of brevity.
+This paper follows EK's methodology in estimating the transport
+2.2.2. Transport costs
+costs. From (5):
+π π
+nij
+nnj
+==Xnij Xnnj
+Tij Tnj
+−θ nij
+d! cij cnj
+−θ
+:Let's deﬁne
+Bij
+≡Tijc
+−θ ij
+;as a measure of international competitiveness of industry j of country i. A gravity-like equation is obtained by taking logs of both sides of Eq. (12) and using the deﬁnition of Bij:
+log
+Xnij Xnnj
+= −θlogdnij + logBij
+−logBnj
+:Following EK, the transport costs are proxied by
+logdnij = dphys
+kj + bj + lj + fj + mnj + δ
+nij
+;phys (k = 1,..., 6) is the effect of the physical distance lying in where dkj the kth interval, b is the effect of the common border, l is the effect of the common language, f is the effect of belonging to the same free trade area, mn is the overall destination effect, and δni is the sum of the transport costs that are due to all other factors. Note that all transport costs are industry-speciﬁc. Also note that by deﬁnition logdiij ≡ 0.
+The estimating equation is obtained by combining Eqs. (14) and (15):
+log
+Xnij Xnnj
+= −θdphys
+kj
+−θbj
+−θlj
+−θfj + Dexp
+ij + Dimp
+nj
+−θδ
+;nij
+ð16Þ
+exp = log Bij is the exporter dummy and Dnj
+imp = − θmnj − logBnj where Dij is the importer dummy.22 The destination-industry speciﬁc import barriers are calculated as mnj = − (1/θ)(Dnj
+exp + Dnj
+imp).
+20 The transport costs cannot be estimated independently from θ using only trade and production data. Additional information, such as output prices, is required. 21 As mentioned before, higher θ is offset by lower estimates of d. The differences in results are second- or third-order. 22 As in Eaton and Kortum (2002), the error term δnij consists of the country-pair speciﬁc component δnij 1 . Eq. (16) is estimated by generalized least squares (GLS).
+2 and the one-way trade component δnij
+ð12Þ
+ð13Þ
+ð14Þ
+ð15ÞFood Textile Wood Paper Chemicals Nonmetals Metals Machinery Manuf. Nonmanuf. Total
+Fooda Textilea Wooda Papera Chemicalsa Nonmetalsa Metalsa Machinerya Averageb Maximumb Minimumb St. Dev.b
+Table 3 Industry shares in intermediate goods.
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+233
+Textile
+Wood
+Chemicals
+Nonmetals
+Metals
+Machinery
+Food
+0.224 0.017 0.002 0.006 0.014 0.003 0.001 0.002 0.268 0.732 1.000
+0.001 0.487 0.040 0.008 0.008 0.005 0.002 0.008 0.559 0.441 1.000
+0.002 0.001 0.281 0.020 0.002 0.007 0.002 0.007 0.322 0.678 1.000
+Paper
+0.042 0.024 0.019 0.439 0.023 0.045 0.004 0.014 0.610 0.390 1.000
+0.045 0.125 0.084 0.090 0.392 0.100 0.049 0.073 0.959 0.041 1.000
+0.012 0.001 0.013 0.002 0.007 0.186 0.013 0.011 0.245 0.755 1.000
+0.001 0.001 0.023 0.003 0.012 0.020 0.459 0.152 0.671 0.329 1.000
+0.034 0.019 0.058 0.027 0.030 0.050 0.046 0.440 0.704 0.296 1.000
+Notes: The number in row m column j is ηjm, the share of industry m goods in the intermediate inputs of industry j. The data is the average of Australia for 1989 and Canada, France, Germany, Japan, UK, and US for 1990.
+Table 4 Estimated transport costs.
+Transp. cost
+2.45 2.02 2.57 2.44 2.21 2.38 2.04 2.01 2.27 6.62 1.01 0.77
+The estimated import barriers mnj are presented in Table 5a. Import barriers in each industry are measured relative to the United States, so that comparisons across industries are not possible. Total transport costs dnij, on the other hand, are measured in absolute terms. Rankings of countries according to their import barriers mnj in each industry are shown in Table 5b. The United States is the most open country in all industries except the Textile industry. Turkey and Greece are the most closed countries. The last line on Table 5a shows the average import barrier of all countries other than the U.S. It can be seen that relative to other countries, the U.S. tends to be less open in the Textile and Metals industries and more open in the Wood, Food, and Machinery industries.
+2.2.3. Technology and other ﬁtted parameters
+The technology parameters Tij are obtained by ﬁtting a subset of the simulation model, together with a long-run equilibrium condition, to domestic data.24,25 The subset of the model includes the cost Eq. (4), reproduced here:
+"cij = r
+kj
+α α i w i
+lj
+J ∏ m = 1
+N γ−θ ∑ n = 1
+ðTnm dinmcnm
+Þ−θ
+(cid:4)
+# −
+ηjm 1−α θ
+−α lj
+kj
+(cid:5)
+;and the goods market clearing Eq. (6):
+N Qij = ∑ n = 1
+πnijXnj
+;where import shares πnij are given by the following equation, derived from Eqs. (5) and (3): (cid:5)−θ
+(cid:4)
+πnij =
+Tij cijdnij (cid:4) i = 1 Tij dnijcij
+∑N
+(cid:5)
+−θ
+:The values of Q ij, Xnj, and wi are taken from data. Labor compensation data is from the UNIDO's statistical database and is presented in Table 6.26 The values of trade costs dnij were estimated in the previous section.
+24 This procedure is different from the approach used by Eaton and Kortum (2002) to ﬁnd the technology parameters. They calculate technology parameters from the estimated competitiveness measures (13) and data on wages. This paper cannot use a similar procedure because data on rates of return is not available. Instead, a subset of the model is used to simultaneously solve for the rates of return and technology parameters. Note that competitiveness measures Sij calculated using ﬁtted values of Tij and cij may be different from those that are estimated in the gravity equation. 25 Note that the identiﬁcation of T's in this paper is done using the cross-section of data. Therefore, the year-to-year volatility of T's found by Finicelli et al. (2007) to result from using the market exchange rates (which are used by UNIDO) is not an issue here. 26 Labor compensation data is not adjusted for education, as in Eaton and Kortum (2002). This means that Lnj in this paper is expressed in terms of workers, not effective workers; As mentioned earlier, output data is also from the UNIDO's statistical database. Spending Xnj is obtained as output minus exports plus imports (trade data is from Feenstra (1997, 2000).
+ð17Þ
+ð18Þ
+ð19Þ
+Note: The transport costs dnij are estimated using the gravity equation.
+a Average for all country pairs. b Of all country pairs and industries.
+phys
+Distance measures dkj
+Bilateral trade data needed to estimate Eq. (16) is from Feenstra (1997, 2000). Imports from home Xiij are calculated as output minus exports, and spending Xij is calculated as output minus exports plus imports. Industry output data is from the UNIDO's statistical database.23 are obtained as follows. This paper takes the actual distance (in miles) between economic centers of countries from Stewart (1999). This distance is the great circle distance between the population weighted average of the latitude and longitude of major cities. Following EK, the distance is divided into 6 intervals: [0, 375), [375, 750), [750, 1500), [1500, 3000), [3000, 6000), and [6000, maximum). The following free trade agreements are considered for the f variable: EC/EU, EFTA, EEA, FTA, NFTA, CER, and a free-trade agreement between Turkey and EFTA.
+The average (unweighted, across country pairs and industries) is 2.27 (with θ =8.28). This number estimated transport cost dnij represents the (dollar) amount of goods in industry j that needs to be sent from country i in order to receive $1 of the goods in country n. The transport cost includes all costs necessary to trade goods internationally, such as freight, insurance, tariffs, non-tariff barriers (NTBs), translation of documents, theft in transit, negotiating long distance, and servicing products long distance. The minimum transport cost in any industry is 1.01 and the maximum is 6.62. Average transport costs for each industry are listed in Table 4. The Machinery and Textile products are cheapest to move between countries while the Wood and Food products are the most expensive.
+23 For some pairs of countries, trade values are missing for 1989. Therefore, δnij, which are part of the distance measure, could not be estimated for some n, i, and j. There are 19 * 18 * 8 = 2736 observations of δnij possible in the data, of which 105 or 3.8% are missing. Most missing observations are proxied by estimates from neighboring years. Six observations that could not be proxied in this manner were proxied by estimates of δni for total manufacturing.234
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Food
+Textile
+Wood
+Paper
+Chemicals
+Nonmet.
+Metals
+Machinery
+Note: The destination-speciﬁc import barriers mn are estimated using the gravity equation and measured relative to the U.S.
+Table 5b Country rankings according to their estimated relative import barriers.
+Table 5a Estimated relative import barriers.
+Australia Austria Canada Finland France Germany Greece Italy Japan Korea Mexico New Zealand Norway Portugal Spain Sweden Turkey United Kingdom United States Av. non-US
+Food
+U.S. Canada New Zeal. Australia France U.K. Italy Germany Japan Spain Korea Greece Norway Mexico Sweden Portugal Austria Turkey Finland
+1.28 2.20 1.25 2.59 1.34 1.48 1.72 1.39 1.50 1.64 1.77 1.27 1.76 1.91 1.58 1.87 2.37 1.36 1.00 1.68
+Textile
+Korea U.S. Germany Italy Portugal U.K. France Japan Canada Sweden Austria Australia New Zeal. Spain Norway Finland Greece Mexico Turkey
+1.51 1.41 1.28 1.74 1.22 1.09 1.80 1.10 1.22 0.96 1.81 1.59 1.73 1.14 1.59 1.30 2.09 1.19 1.00 1.43
+Wood
+U.S. Canada Italy Germany Japan U.K. France Sweden Korea Australia Spain Finland New Zeal. Mexico Austria Norway Portugal Greece Turkey
+1.92 2.31 1.26 2.02 1.70 1.43 2.73 1.40 1.55 1.82 2.10 2.04 2.33 2.39 1.95 1.80 3.29 1.59 1.00 1.98
+1.43 1.57 1.07 1.46 1.35 1.13 2.18 1.33 1.37 1.44 2.11 1.48 1.81 1.73 1.54 1.30 2.98 1.20 1.00 1.58
+1.45 1.74 1.42 1.77 1.29 1.20 2.37 1.35 1.18 1.28 1.67 1.52 1.58 2.25 1.61 1.48 2.28 1.26 1.00 1.60
+Paper
+U.S. Canada Germany U.K. Sweden Italy France Japan Australia Korea Finland New Zeal. Spain Austria Portugal Norway Mexico Greece Turkey
+Chemicals
+U.S. Japan Germany U.K. Korea France Italy Canada Australia Sweden New Zeal. Norway Spain Mexico Austria Finland Portugal Turkey Greece
+Country
+Australia Austria Canada Finland France Germany Greece Italy Japan Korea Mexico New Zeal. Norway Portugal Spain Sweden Turkey U.K. U.S.
+1.62 1.73 1.42 2.00 1.38 1.24 1.93 1.30 1.19 1.49 1.81 1.91 2.01 1.80 1.60 1.54 2.11 1.35 1.00 1.63
+Nonmet.
+U.S. Japan Germany Italy U.K. France Canada Korea Sweden Spain Australia Austria Portugal Mexico New Zeal. Greece Finland Norway Turkey
+1.29 1.81 1.05 1.62 1.37 1.24 1.88 1.50 1.16 1.18 1.70 1.34 1.41 1.80 1.63 1.41 1.98 1.28 1.00 1.48
+Metals
+U.S. Canada Japan Korea Germany U.K. Australia New Zeal. France Norway Sweden Italy Finland Spain Mexico Portugal Austria Greece Turkey
+1.51 1.62 1.38 1.80 1.40 1.21 2.61 1.41 1.29 1.38 1.86 1.88 1.90 1.86 1.72 1.36 2.83 1.27 1.00 1.68
+Machinery
+U.S. Germany U.K. Japan Sweden Canada Korea France Italy Australia Austria Spain Finland Portugal Mexico New Zeal. Norway Greece Turkey
+Compensation
+$19,115 $20,767 $25,991 $23,561 $28,312 $25,651 $9,369 $28,251 $26,902 $8,346 $4,337 $15,894 $25,180 $6,780 $14,819 $20,918 $4,120 $18,745 $26,203
+Table 6 Labor compensation per manufacturing worker.
+Note: The countries with the smallest import barriers are at the top.
+Data on the rates of return is not available, so to parametrize the model an assumption is made that in the base period the rates of return are equal in all countries. This assumption can be thought of as a long-run equilibrium condition. It is only used to parametrize the model. It is not used when performing the simulations described in Section 3.27 The world rate of return is set to 20%.28
+Eqs. (17)–(19) are then solved to ﬁnd the 1989 values of Tnm and cij. The system in Eqs. (17)–(19) is exactly identiﬁed since there are as many equations (2NJ) as unknowns.
+With values for Tnm, ri, and cij in hand, it is possible to calculate the remaining parameters: factor stocks Ln and Kn, nonmanufacturing
+27 This assumption, of course, implies capital mobility (subject to transport costs) across countries, which is different from the assumption of ﬁxed capital stocks made in Section 2.1. These two assumptions are reconciled as follows. The capital stock is mobile across countries in the long run and the world economy is in a long-run equilibrium in the base year. The simulations done in Section 3 consider the relatively short-term horizon when the capital stock is ﬁxed. In that case, the rate of return in each country is determined domestically and the rates may diverge across countries. 28 This is a gross rate of return that assumes 10% net return and 10% depreciation. For sensitivity analysis, I also obtain the results with r=10%. The very small difference between the results obtained using different values of r does not warrant presenting both in the paper.S. Shikher / Journal of International Economics 83 (2011) 229–242
+235
+Capital
+Labor
+20
+15
+10
+) l a u t c a L ( g o
+lPaper
+0.040 0.087 0.753 0.434 0.260 0.332 0.003 0.206 0.309 0.017 0.001 0.042 0.123 0.011 0.058 0.255 0.000 0.166 1.000
+30
+25
+20
+) l a u t c a K
+( g o
+l15
+15
+Food
+0.253 0.027 0.266 0.013 0.368 0.215 0.043 0.178 0.080 0.032 0.010 0.358 0.101 0.018 0.117 0.033 0.014 0.232 1.000
+20
+25
+log(Kfitted)
+30
+5510
+15
+20
+log(Lfitted)
+Fig. 1. Actual vs. ﬁtted industry-level capital and labor.
+Table 7a Technology parameters relative to the United States.
+Textile
+Wood
+Chemicals
+Nonmet.
+Metals
+Machinery
+Australia Austria Canada Finland France Germany Greece Italy Japan Korea Mexico New Zealand Norway Portugal Spain Sweden Turkey United Kingdom United States
+0.098 0.154 0.292 0.080 0.702 0.676 0.044 1.435 0.776 0.319 0.009 0.058 0.032 0.028 0.140 0.067 0.019 0.320 1.000
+0.018 0.029 0.503 0.089 0.138 0.220 0.001 0.339 0.119 0.008 0.001 0.020 0.030 0.004 0.026 0.076 0.000 0.055 1.000
+0.048 0.063 0.153 0.056 0.372 0.522 0.008 0.249 0.571 0.069 0.017 0.031 0.084 0.006 0.080 0.088 0.007 0.256 1.000
+0.045 0.201 0.139 0.048 0.792 0.914 0.033 1.387 1.491 0.043 0.010 0.009 0.036 0.024 0.211 0.092 0.015 0.342 1.000
+0.408 0.137 0.914 0.238 0.587 0.683 0.040 0.369 1.007 0.148 0.022 0.056 0.313 0.011 0.193 0.248 0.027 0.352 1.000
+0.054 0.073 0.149 0.072 0.318 0.521 0.002 0.356 1.228 0.061 0.003 0.015 0.053 0.004 0.048 0.135 0.001 0.197 1.000
+Note: The technology parameters Tnj are estimated by ﬁtting a subset of the simulation model to data.
+shares ξn, and demand shares ψij. First, the industry factor employ- ments are calculated by plugging in the rates of return ri and data on output and wages into Eq. (8). The correlation between the industry- level capital stocks calculated in the model and the industry-level capital stocks obtained from the industry-level investment data is 0.99.29 The same number for labor is 0.97. Fig. 1 plots the actual vs. ﬁtted industry-level capital and labor employments (using log scales).30
+The total factor stocks are obtained as the sum of industry factor employments. Nonmanufacturing share is calculated as 1 − (riKi + wiL)/ Yi, where the total income Yi is taken from data.
+The taste parameter ψij is the proportion of total country income spent on consumption goods from industry j: ψij= Cij/Yi. The consump- tion of industry j goods in country i is calculated as Cij= Xij− Zij. In that expression, the total spending Xij is taken from data. The amount spent on intermediate goods from industry j is calculated as Zij = ∑J ÞQ im, where industry output Qim is taken from data.
+ηmj 1−αkm−αlm
+m = 1
+ðThe values for parameters Tij, Ln, Kn, ψnj, and ξn have now been obtained. They were obtained using transport costs dnij, estimated in the previous section, together with data on output Q ij, spending Xij, wages wi, total income Yi, and Cobb–Douglas shares αj, βj, and ηjm. In
+29 The latter capital stocks are calculated by applying the perpetual inventory method to the industry investment time series obtained from the UNIDO's Statistical Database. Industry-level labor employments are taken directly from the UNIDO's data. 30 The high correlations support the form of Eq. (8) and the assumption of equal rates of return in all countries.
+addition, it was necessary to set the value for the long-run world rate of return to capital.
+Estimated industry technology parameters relative to the United States are presented in Table 7a. They show that countries have different relative technologies in different industries. Rankings of countries according to their technology parameters in each industry are presented in Table 7b. The United States has the highest technology parameter in the Food, Wood, Paper, and Chemicals industries. Italy has the highest technology parameter in the Textile industry while Japan has the highest technology parameter in the Nonmetals, Metals, and Machinery. Developing countries are gener- ally at the bottom of the rankings.31
+3. The effects of capital stock and technology on specialization
+This section uses the computable model described and parametrized in the previous sections to study the effects of capital stock and technology on specialization. Specialization is measured by industry shares: Snj = Ynj/Yn. This section will ﬁrst discuss the simulated effects of capital on specialization and their relationship to the capital intensities of industries, and then will talk about the effects of technology on specialization. The next section will evaluate the predictions of the model.
+To ﬁnd the effect of the capital stock on specialization in a particular country, the manufacturing capital stock of that country is
+31 The correlation between the trade ﬂows predicted by the ﬁtted model and the trade ﬂows in the data is near 1. It seems very good, but it is necessary to remember that the model has very few degrees of freedom.236
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Table 7b Country rankings according to their technology parameters.
+Textile
+Italy U.S. Japan France Germany U.K. Korea Canada Austria Spain Australia Finland Sweden New Zeal. Greece Norway Portugal Turkey Mexico
+Food
+− 0.121 − 0.206 − 0.165 − 0.252 − 0.148 − 0.138 − 0.120 − 0.081 − 0.094 − 0.158 − 0.095 − 0.073 − 0.240 − 0.165 − 0.233 − 0.171 − 0.151 − 0.167 − 0.091
+Food
+U.S. France New Zeal. Canada Australia U.K. Germany Italy Spain Norway Japan Greece Sweden Korea Austria Portugal Turkey Finland Mexico
+Australia Austria Canada Finland France Germany Greece Italy Japan Korea Mexico New Zealand Norway Portugal Spain Sweden Turkey United Kingdom United States
+Averagea Std. dev.a Maximuma Minimuma
+a Across countries.
+Note: The countries with the highest technology parameters are at the top.
+Table 8 Simulated semielasticities of specialization with respect to capital stock.
+Wood
+U.S. Canada Italy Germany France Japan Finland Sweden U.K. Norway Austria Spain New Zeal. Australia Korea Portugal Greece Mexico Turkey
+Textile
+− 0.065 − 0.122 − 0.085 − 0.043 − 0.081 − 0.075 − 0.137 − 0.155 − 0.034 − 0.245 − 0.036 − 0.105 − 0.022 − 0.218 − 0.086 − 0.029 0.043 − 0.067 − 0.032
+Paper
+U.S. Canada Finland Germany Japan France Sweden Italy U.K. Norway Austria Spain New Zeal. Australia Korea Portugal Greece Mexico Turkey
+Chemicals
+U.S. Japan Germany France U.K. Italy Canada Sweden Norway Spain Korea Austria Finland Australia New Zeal. Mexico Greece Turkey Portugal
+Nonmet.
+Japan Italy U.S. Germany France U.K. Spain Austria Canada Sweden Finland Australia Korea Norway Greece Portugal Turkey Mexico New Zeal.
+Wood
+− 0.063 − 0.092 − 0.071 − 0.109 − 0.035 − 0.042 − 0.022 − 0.021 − 0.021 − 0.031 − 0.001 − 0.083 − 0.083 − 0.058 − 0.048 − 0.117 − 0.008 − 0.045 − 0.021
+Paper
+− 0.049 0.023 0.042 0.037 − 0.040 0.018 0.015 − 0.012 − 0.069 − 0.037 − 0.001 − 0.043 − 0.080 0.093 − 0.017 − 0.010 0.009 − 0.059 − 0.065
+0.048 0.184 0.082 0.132 0.124 0.101 0.037 0.107 0.006 0.021 0.044 0.161 0.195 0.117 0.068 0.160 − 0.081 0.097 − 0.011
+− 0.042 − 0.019 − 0.002 − 0.031 − 0.004 0.000 − 0.001 0.010 − 0.033 − 0.058 − 0.008 − 0.014 0.009 0.042 − 0.034 0.006 − 0.046 − 0.042 − 0.004
+Metals
+Japan U.S. Canada Germany France Australia Italy U.K. Norway Sweden Finland Spain Korea Austria New Zeal. Greece Turkey Mexico Portugal
+0.174 0.249 0.220 0.216 0.181 0.222 0.185 0.113 0.129 0.318 0.108 0.154 0.362 0.106 0.171 0.233 0.097 0.183 0.104
+Machinery
+Japan U.S. Germany Italy France U.K. Canada Sweden Austria Finland Korea Australia Norway Spain New Zeal. Portugal Mexico Greece Turkey
+0.118 − 0.016 − 0.020 0.050 0.003 − 0.086 0.043 0.038 0.117 0.191 − 0.009 0.004 − 0.142 0.083 0.179 − 0.071 0.138 0.099 0.119
+Chemicals
+Nonmetals
+Metals
+Machinery
+Note: The semielasticities are obtained by simulating the increase of a country's capital stock, while holding the capital stocks of other countries constant.
+Table 9 Summary of the simulated semielasticities of specialization with respect to capital stock.
+Food
+− 0.151 0.054 − 0.073 − 0.252
+Textile
+− 0.084 0.069 0.043 − 0.245
+Wood
+− 0.051 0.034 − 0.001 − 0.117
+Paper
+− 0.013 0.045 0.093 − 0.080
+Chemicals
+Nonmetals
+Metals
+Machinery
+0.084 0.071 0.195 − 0.081
+− 0.014 0.025 0.042 − 0.058
+0.186 0.073 0.362 0.097
+0.044 0.091 0.191 − 0.142
+increased, holding capital stocks of other countries constant. This is repeated for every country in the sample, meaning that 19 simulations are run.32
+The effect of the capital stock on specialization is measured by the semielasticities of industry shares with respect to capital stock. These
+32 The increases of 10, 20, 30, and 40% are simulated with no noticeable differences in the results. This section reports the averages over these experiments.
+semielasticities are given by (Snj1 − Snj0)/log(Kn1/Kn0) and are calcu- lated for each country and industry.
+The simulated semielasticities are presented in Table 8 and summarized in Table 9. The most striking feature of the results is the great heterogeneity in the effect of the capital stock across countries. Only in three industries, Food, Wood and Metals, are the signs of the semielasticities the same for all countries. In Paper, Nonmetals, and Machinery industries, half of the semielasticities are positive, while the rest are negative. The magnitudes of the semielasticities can be very different as well, even in industriesS. Shikher / Journal of International Economics 83 (2011) 229–242
+237
+where the signs are the same in all countries. For example, the effect of higher capital stock on the share of the Metals industry is three times higher in Norway or Korea than it is in the United States or Italy.33
+Based on these results, it seems that we can not pin down the size or direction of the effect of the capital stock on specialization that would be applicable to all, or even most, countries. The size and, for many industries, direction of the effect are country-speciﬁc.34
+There several sources of this heterogeneity. They include trade costs, technological comparative advantages, initial sizes of industries, and tastes. Their importance varies across industries and they do not affect semielasticities in a consistent manner across industries.
+Because of this heterogeneity, the average cross-country semielasti- cities cannot be interpreted as being representative or typical. They cannot be used to forecast changes in specialization in any country in response to a change in capital stock. Importantly, the averages cannot be used to infer the importance of capital stock for specialization. Depending on the composition of the sample, the large positive changes in industry shares in some countries can be cancelled out by large negative changes in other countries. The cross-country average of near zero in this case however does not mean that capital stock has little effect of specialization. This argument points to the limitations of the regression methodologies that rely on cross-country variations in the data to study the effects of capital stock on specialization.35
+Having analyzed the effects of capital stock on specialization, it may be interesting to ﬁnd out if there is a relationship between those effects and the capital shares of industries. This relationship can be called the Rybczynski effect. According to this effect, the industries with higher capital intensity grow more in response to an increase in capital stock than the industries with lower capital intensity. However, the relationship does not have to be clear-cut and the strength of this relationship is not known a priori (see Ethier (1982) for the interpretation of the Rybczynski theorem in many dimensions in terms of correlations).
+Table 10 shows the correlations between the semielasticities and capital shares in output and value added. All correlations are between 0.43 and 0.56. They are positive, as expected, but fairly low. As an example, consider the Machinery industry, which is relatively labor- intensive, but increases its share in the average country and in most countries of the dataset when the capital stocks grow.36 The linear regression of the semielasticities on the capital shares in value added results in positive, but statistically insigniﬁcant coefﬁcients. These results show that capital intensity is a weak determinant of the response of industry share to a change in capital stock. 37,38
+33 The rankings of the industries according to their semielasticities (i.e. the relative aspects of the change in the industrial structure) are more similar across countries than signs and magnitudes, but can still be very different, especially in the Machinery, Textile, and Chemicals industries. None of the industries keep the same ranking in all countries. 34 Elasticities (not shown) exhibit the same degree of variability across countries. 35 Our results show that such regression estimates are indeed very sensitive to the composition of the sample (see footnote 53); Also note that introducing country effects into such regressions would not solve the problem since the coefﬁcients that measure the effects of capital stock on specialization would still estimate cross- country averages. The only way around this problem is to run the regression country- by-country, but the short span of time series available for most countries makes it impractical. 36 This probably occurs because of the downstream linkages to the capital-intensive Metals and Chemicals industries to the Machinery industry (see Table 3). 37 This means that the average semielasticities presented earlier are not simply determined by the factor intensities. Instead, the response of the industry share to a change in capital stock is the result of a complex interaction of various factors within the economy. 38 This result is broadly consistent with Romalis (2004) who ﬁnds a positive relationship between the capital stocks and the coefﬁcients from the regressions of industry shares on factor intensities. This positive relationship is fairly loose, however, as can be seen in Figures 11 and 12 of his paper (he does not report the R2's for his regressions). Romalis ﬁnds that the Rybczynski effects are statistically signiﬁcant, which may be explained by his use of more disaggregated data (at the 4-digit level) compared to this paper.
+Table 10 Rybczynski effects.
+Measure of capital intensity
+Semielasticities
+Elasticities
+Capital share in value added Capital share in output
+0.434 0.513
+0.557 0.521
+Note: These are the correlations between the semielasticities and elasticities of industry shares with respect to capital stock and the two measures of the industry capital intensities.
+The effects of technology on specialization are measured using the procedure similar to the one used to measure the effects of capital stock. The technology parameter in industry j of country n is increased, holding all other technology parameters constant, and the resulting change in specialization in country n is measured. This is repeated for each industry and country in the sample (meaning that 19 × 8 = 152 simulations are run). The semielasticities of specializa- tion with respect to technology are then calculated.
+The average semielasticities are reported in Table 11. Semielasti- cities with respect to own technology, shown on the diagonal, are in bold. All of them are positive. As expected, the values of cross-industry semielasticities, shown off diagonal, are signiﬁcantly smaller than the values of own-technology semielasticities.
+As with the capital stock, there is a great deal of variability of semielasticities across countries (Table 12). Though the signs of own- technology effects remain the same in all countries, their values vary by an order of magnitude. Therefore, the same limitations on the interpretation and use of the cross-country average effects that were discussed regarding the capital stock apply here.
+4. Evaluation of the model's predictions
+The previous section presented some interesting insights into the effects of technology and capital stock on the specialization of countries. However, it is necessary to make sure that the predictions of the model are accurate.
+This section evaluates the ability of the model to make sensible predictions of changes in specialization in response to changes in capital stock. To make this evaluation, the model is asked to perform historical simulations for 1975–95. Since the model is parametrized using data for 1989, these historical simulations involve backcasting for 1975–88 and forecasting for 1990–1995.
+While the evaluation of a model by simulation is not a commonly used approach in international trade, it is used in other ﬁelds of economics, for example in the business cycle literature. A commonly used approach to evaluating a model – ﬁtting it do data and evaluating the ﬁt – is problematic with large multi-equation models. For example, individual equations of the model may have a good statistical ﬁt, but the model as whole may perform poorly (Pindyck and Rubinfeld, 1998).
+A model with few degrees of freedom, such as the model of this paper, may ﬁt the data well, but perform poorly outside of the time interval used to parametrize it (Kehoe, 2005). Taking the model outside of this time interval tells us which aspects of the data the model can replicate (Canova and Ortega, 2000). Moreover, since the computable models are often used for forecasting purposes, a small forecasting error is an important criterion by which these models should be evaluated.
+The evaluation proceeds as follows. First, the country-level capital- stock data for 1975–88 and 1990–95 is collected.39 Then, for each of these years, the model is simulated with Kn set to the actual capital stock during that year and all the other variables held at their baseline (i.e. 1989) level. Lastly, the 1975–88 and 1990–95 industry shares
+39 Country capital stock is calculated from the investment time series using the perpetual inventory method with geometric depreciation. The investment data is from the UNIDO.238
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Table 11 Average simulated semielasticities of specialization with respect to technology.
+Food Textile Wood Paper Chemicals Nonmetals Metals Machinery
+Food
+0.399 − 0.077 − 0.020 − 0.047 − 0.080 − 0.015 −0.087 − 0.252
+Textile
+− 0.056 0.895 − 0.025 − 0.064 − 0.068 − 0.035 − 0.139 − 0.430
+Wood
+− 0.019 − 0.030 0.239 − 0.033 − 0.034 − 0.006 − 0.039 − 0.128
+Paper
+− 0.025 − 0.073 − 0.029 0.689 − 0.078 − 0.020 − 0.132 − 0.391
+Chemicals
+Nonmetals
+Machinery
+− 0.044 − 0.089 − 0.024 − 0.064 0.806 − 0.022 − 0.126 − 0.376
+− 0.015 − 0.054 − 0.008 − 0.028 − 0.038 0.190 − 0.035 − 0.117
+Metals
+− 0.053 − 0.119 − 0.025 − 0.094 − 0.105 − 0.016 0.721 − 0.104
+− 0.188 − 0.453 − 0.109 − 0.360 − 0.403 − 0.074 − 0.163 1.799
+Notes: The semielasticities are obtained by simulating the increase of the technology parameter Tnj in industry j of country n, while holding the technology parameters of all other countries and industries constant. The number in row j column m represents the cross-country average semielasticity of the industry m share with respect to the industry j technology parameter.
+Table 12 Summary of the semielasticities of specialization with respect to own-industry technology.
+Food
+0.399 0.361 0.104 1.709
+Textile
+0.895 0.890 0.187 3.722
+Wood
+0.239 0.187 0.017 0.571
+Paper
+0.689 0.647 0.101 2.503
+Chemicals
+Nonmetals
+Metals
+Machinery
+0.806 0.308 0.260 1.261
+0.190 0.117 0.044 0.526
+0.721 0.328 0.198 1.456
+1.799 0.754 0.828 3.726
+Averagea St. dev.a Minimuma Maximuma
+a Across countries.
+120,000
+100,000
+80,000
+60,000
+40,000
+20,000
+01975
+1980
+1985
+1990
+1995
+ai l
+a r t s u A
+a i r t s u A
+a d a n a C
+d n a n F
+ile c n a r F
+e c e e r G
+y n a m r e G
+ly a t I
+n a p a J
+a e r o K
+io c x e M
+y a w r o N
+la g u t r o P
+in a p S
+n e d e w S
+y e k r u T
+ld n a a e Z w e N
+s e t a t S  d e t i n U
+im o d g n K  d e t i n U
+Fig. 2. Manufacturing capital per worker for select years (constant USD).
+predicted by the model are compared with the actual industry shares observed at that time.40
+Note that a similar procedure cannot be used to evaluate the ability of the model to predict changes in specialization in response to changes in the technology parameter T. Unlike capital stock, technology T is not directly observable. It can only be estimated using data on output, factor prices, and trade, i.e. exactly the data that the model would be asked to forecast. This negates the purpose of the historical simulation.41
+The data on the capital stock for select years from the 1975–95 period is shown in Fig. 2. Some countries started with relatively little capital per worker, but accumulated fast (e.g. Korea). Other countries started with little and accumulated little (e.g. Greece, Turkey, and Portugal). One country saw a reduction in capital stock per worker (Mexico). Some of the countries started with high levels of capital, but
+40 The industry-level value added data is from the Industrial Statistics database of the UNIDO. GDP data is from the International Financial Statistics (IFS) database of the IMF. 41 Of the two determinants of specialization studied in this paper, the effects of capital stock are probably harder to predict. The effect of technology is direct (technology is measured on the industry level) and fairly non-controversial. The effect of capital stock, on the other hand, is indirect (total capital stock does not enter industry production functions) and has proven to be harder to pinpoint.
+accumulated little (e.g. the U.S. and Germany). Others started with high levels and accumulated even more (e.g. Finland and Japan). The model will have to predict how specialization has changed in these countries in response to the changes in capital stock.
+The actual changes in the industry shares between 1975 and 1995 varied from small (less than 1 percentage point) to substantial (15 percentage points). Fig. 3, which presents the industry shares for 1975 and 1990 (the last year for which all data is available), illustrates the changes in the industry shares that occurred during that time. It shows cases of signiﬁcant growth (e.g. Machinery in Korea) and signiﬁcant decline (e.g. Chemicals in Italy).
+Since the changes in capital stock are only one of the factors that affected industry shares between 1975 and 1995, the model should not be expected to exactly reproduce the changes in specialization that took place during that period.42 Any methodology that is used to compare the industry shares predicted by the model with the actual ones must be able to take this into account. This paper uses two such methodologies.
+The ﬁrst looks directly at the predicted and actual changes in industry shares, while the second uses the framework of Harrigan
+42 For example, changes in technology, trade costs, and tastes may have also affected specialization.1 - Food
+2 - Textile
+3 - Wood
+4 - Paper
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+239
+65432108 7 6 5 4 3 2 1 0
+7 6 5 4 3 2 1 0
+2.5
+1.5
+0.5
+2102.5
+1.5
+0.5
+2103.5 3 2.5 2 1.5 1 0.5 0
+654321020
+15
+10
+50a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+ile c e e r G
+n a m r e G
+ai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+y a w r o N
+la g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.a i r t s u A
+a d a n a C
+d n a n F
+ile c n a r F
+e c e e r G
+n a m r e G
+ai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+ly a w r o N
+a g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+.S U
+a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+e c e e r G
+n a m r e G
+ilai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+ly a w r o N
+a g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+ile c e e r G
+n a m r e G
+ai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+ly a w r o N
+a g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.5 - Chemicals
+6 - Nonmetals
+7 - Metals
+8 - Machinery
+1975
+1990
+a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+ile c e e r G
+n a m r e G
+ai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+y a w r o N
+la g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+e c e e r G
+n a m r e G
+ilai l
+a r t s u A
+ly a t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+y a w r o N
+la g u
+t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+e c e e r G
+n a m r e G
+ilai l
+a r t s u A
+ly a
+t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+ly a w r o N
+a g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+S U
+.a i r t s u A
+a d a n a C
+d n a n F
+e c n a r F
+ile c e e r G
+n a m r e G
+ai l
+a r t s u A
+ly a
+t I
+w e N
+n a p a J
+a e r o K
+io c x e M
+ly a w r o N
+a g u t r o P
+in a p S
+y e k r u T
+n e d e w S
+...K U
+.S U
+Fig. 3. Changes in specialization between 1975 and 1990 (industry shares in GDP, percent).
+(1997) to estimate the semielasticities of specialization with respect to capital in the simulated and actual data. The advantage of the second approach is that it makes it possible to better control for the determinants of specialization other than the capital stock.
+model
+actual
+model and ˆs nj
+nj = a + b ˆs
+To directly compare the actual and simulated changes in the industry shares, I run the following regression: ˆs nj + ε, where actual ˆs are the actual and simulated percent changes in nj industry shares in manufacturing. If the determinants of industry shares other than the capital stock are independent of the level of the capital stock, then we should be able to run this regression and expect b to be one.43 Even though the industry capital stock is generally not independent of the industry level of technology, the total manufacturing capital stock can be considered independent of any individual industry's level of technology. Countries' levels of human capital may not be independent of their levels of physical capital, in which case the estimate of b would be biased. With these caveats in mind, the point estimate of the slope in the above regression is 1.37 with the 95% conﬁdence interval being 0.97–1.76. Therefore the hypothesis that b is one cannot be rejected.
+4.1. Comparing semielasticities
+The second approach used to evaluate the model's predictions employs the framework of Harrigan (1997). He developed an approach to estimating the effects of technology and factor endow- ments on specialization imposing relatively little structure on the data. To evaluate the forecasts, Harrigan's equations will be estimated using simulated and actual data, and the results will be compared. Using Harrigan's methodology makes it possible to control for the determi- nants of specialization other than the capital stock in the actual data.44 Harrigan's estimating equation is derived from a neoclassical model of trade that assumes constant returns to scale, perfectly competitive markets, multiple industries, and factor of production
+43 Note that we would not expect a to be zero because the mean effect of other factors on the actual industry shares does not have to be zero. 44 Section 3 did conclude that regressions like these should not be used to study specialization. However, the regression is used here purely for model evaluation purposes in order to establish a benchmark and to control for the determinants of specialization other than the capital stock.
+that are ﬁxed for the country, but mobile across industries. There are factor endowment differences across countries and technological differences across industries in each country. Industry-level technol- ogy is measured by total factor productivity (TFP).45 I include only a summary of the Harrigan's methodology. For a detailed explanation and derivation, the readers are referred to the original paper.
+There are N countries, J industries, and G factors of production. Countries are indexed by n and i, industries are indexed by j and m, and factors of production are indexed by g and h. Harrigan derives his estimating equation from a translog economy-wide revenue function. Applying Hotelling's lemma to this revenue function he obtains the equation relating industry shares Snj to industry-level productivities, prices, and country-wide factor endowments. He proxies the unobserved industry-level prices as well as productivities of some sectors (services, government) by a sum of country ﬁxed effects, time ﬁxed effects, and a random component enjt with constant variance σj 2.
+The resulting estimating equation is then
+Snjt = η
+nj + γ
+J1 jt + ∑ m = 1
+G ajmlnAnmt + ∑ g = 2
+cg jln
+vngt vn1t
++ enjt
+;ð20Þ
+where 1,...,J1 is the subset of industries with observable technologies.46 There are no linear homogeneity restrictions on the technology coefﬁcients because the summation is over only some of the industries. The coefﬁcients ajm and cgj are semielasticities of the industry share with respect to total factor productivity and factor endowments.47
+Eq. (20) is estimated as a system of J = 8 seemingly unrelated regressions (SUR) with restrictions given by the symmetry
+45 Some assumptions used in the Harrigan's methodology are different from the assumptions made in the simulation model. So, strictly speaking, Harrigan's model has no structural interpretation from the point of view of the simulation model. However, if the simulation model is able to generate data that has the same relationship between capital stock and specialization as the one observed in the actual data, then that would be evidence supporting the simulation model. 46 Harrigan also assumes free trade and, therefore, equal prices for traded goods across countries. However, this assumption is not necessary since he is proxying the prices of all goods (traded and nontraded) by ﬁxed effects. 47 There are restrictions imposed on Eq. (20). I impose them the same way Harrigan does. For example, prices and TFPs are normalized by sector 1 and factors are normalized by factor number 1 (in this paper it is labor).240
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Table 13 Estimated semielasticities of specialization with respect to capital stock.
+Shares
+Actual Simulated
+Food
+− 0.42 − 0.32
+Textile
+− 0.94 − 0.27
+Wood
+− 0.04 − 0.03
+Paper
+− 0.21 − 0.11
+Chemicals
+Nonmetals
+Metals
+Machinery
+− 0.08 − 0.04
+− 0.01 − 0.15
+0.12 0.43
+0.42 0.46
+Notes: The semielasticities are estimated using the regressions of Harrigan (1997)with either actual or simulated 1975–95 industry shares. The correlation between the two sets of semielasticities is 0.8. The regression of the ﬁrst row on the second yields (95% conf. int.): intercept = − 0.14 (− 0.37, 0.09), slope = 1.08 (0.25, 1.91).
+Table 14 Effects of various determinants of trade on the volume of trade.
+Experimenta
+Factor endowments Industry technology Firm-level technology
+Percent change in the world trade volume
+1.27 − 1.91 − 95.42
+a Each experiment refers to removal of a particular determinant of trade.
+requirements. Each equation represents a two-way ﬁxed effects error component model, estimated by a within estimator, as described in Baltagi (2001).
+(cid:4)
+Total factor productivity is compared across countries using the multilateral translog productivity index (Caves et al., 1982; Christensen et al., 1981). In each industry, the relative TFP of country n at time t with respect to the reference point is given by ln Ant−ln A1 = (cid:4) (cid:5) lnYnt−lnY1− ˆαnt − ˆα1 ln SK ln SKnt−ln SK ð ln SLnt− (cid:5) (cid:4) (cid:11) (cid:10) , where ˆαnt = αnt + α Þ− 1− ˆα1 Þ = 2, α is capital −ln SL1 ln SL
+ln SL share, SK is capital services, SL is labor services, a bar indicates the average over all countries and years, and subscript 1 denotes the reference point.48
+(cid:5) − 1− ˆαnt
+−ln SK1 ð
+(cid:11)
+(cid:10)
+Labor services SL are measured by the number of hours worked, as in Harrigan. The capital services SK are proxied by capital stock, also as in Harrigan. To mitigate the measurement error in TFP, this paper follows Harrigan and instruments each TFP measure by the average of all other countries' TFPs in that industry and year.
+Eq. (20) is estimated using actual and simulated data. When using actual data, to account for the determinants of specialization other than capital this paper follows Harrigan (1997) and includes technology, human capital, and land.49 The objective is to compare the semielasticities of industry shares with respect to capital stock, ckj, estimated from the simulated and actual data.
+The factor endowments used in estimating Eq. (20) are physical capital, labor force, human capital, and stock of arable land. 50 The estimated semielasticities are shown in Table 13.51 The estimates obtained using the actual data are shown on the ﬁrst row, while those obtained using the simulated data are shown on the second row. The similarity between the two sets of estimates can be seen immediately.
+48 The choice of the reference point is inconsequential. This paper follows Harrigan (1997) and chooses the TFP of the United States in 1988 as the reference point. Also note that following Harrigan only capital and labor are used to calculated the TFP (due to data limitations), though the estimating equation includes other factors of production. 49 Note that in the simulated data even though the technology parameters T were held constant during the simulations, the measured values of TFP have changed a little (see footnote 11). 50 Labor force and stock of arable land are from the World Development Indicators database of the World Bank. Human capital is measured by educational attainment rates obtained from the International Data on Educational Attainment accompanying Barro and Lee (2000). 51 The detailed results tables for these regressions are available upon request. The semielasticities in Table 13 are different from the semielasticities in Table 8 because they are obtained for different time periods (1975–95 vs. 1989), using different approaches for identiﬁcation (domestic panel data with two-way ﬁxed effects vs. domestic and trade data for one year), and using models with different assumptions.
+The signs all match and the magnitudes are very similar. The correlation between the two sets of estimates is 0.8.
+actual = a + bck
+To further compare the two sets of semielasticities I run the model + ε, where ck model are the regression ck semielasticities estimated using, respectively, the actual and simulated data.52 The estimated intercept of this regression is −0.14 with the 95% conﬁdence interval between −0.37 and 0.09. The estimated slope is 1.08 with the 95% conﬁdence interval between 0.25 and 1.91. Therefore, the hypotheses that the slope is 0 and intercept is 1 cannot be rejected.53
+actual and ck
+5. Determinants of the volume of trade
+What about the effects of factor endowments and technology on the volume of trade? Trade theory suggests that these are mostly the determinants of specialization and not the volume of trade. Does the model support this assertion?
+To ﬁnd the effect of each determinant of trade, I remove them one- by-one and note the changes in the volume of trade. To remove factor endowment differences, the capital-labor ratios are set equal in all countries. To remove comparative advantage on the industry level, new = τnTus, j, the relative technologies are set equal in all countries: Tnj where τn is an average of current relative technology parameters.
+Table 14 summarizes the results. It shows that the volume of trade depends little on the strength of industry-level technological and factor endowment advantages. Shutting down industry-level comparative advantages causes a 2% reduction in the volume of trade and shutting down factor endowment differences increases the volume of trade by 1.3%.
+Speciﬁcally, it is found that lower volume of inter-industry trade is compensated by higher volume of intra-industry trade. This becomes evident when looking at the changes in the Grubel–Lloyd (GL) index.54 It increases from 0.46 to 0.53. This result agrees with the ﬁnding of Grubel and Lloyd (1975) that the proportion of intra-industry trade has grown over time, even as countries have become more similar.
+On the other hand, the volume of trade is very sensitive to the strength of the product-level comparative advantage, measured by the (shaping) parameter θ. Increasing θ to 100 reduces the volume of trade to about 5% of its current level.55 Both inter-industry and intra-
+52 This regression can be interpreted as asking how much of the variation in the actual semielasticities is “explained” by the simulated semielasticities. The R2 for this regression is the correlation squared. 53 As an aside, this regression methodology is very sensitive to the composition of the sample (this follows from the large cross-country differences of the semielasticities with respect to capital stock shown in Table 8). For example, using the complete dataset, the effect of capital stock on the Machinery industry share is estimated to be 0.42 and not statistically signiﬁcant. With data for Norway and Germany (the two countries with the greatest negative simulated semielasticities in Table 8) omitted, the effect of capital on Machinery share becomes 0.91 and highly statistically signiﬁcant. On the other hand, if the data for Korea and Spain (the two countries with the greatest positive simulated semielasticities in Table 8) is dropped from the complete dataset, the effect of capital stock on Machinery share is estimated to be − 3.10 and also highly statistically signiﬁcant. 54 The Grubel–Lloyd intra-industry (IIT) index is calculated as IITnij = 2min(Tradenij, Tradeinj)/(Tradenij + Tradeinj). It varies between 0 and 1 with higher numbers indicating more intra-industry trade. 55 In practice, we can increase θ twelve times, to 100. A numerical solution is not Increasing θ also affects the mean of the Fréchet obtainable for higher values. distribution, in turn affecting the industry-level comparative advantage. To compen- sate, we adjust Tnj's so that the means remain constant, resulting in a much greater “spread” of Tnj's. However, this adjustment has virtually no effect on the results.S. Shikher / Journal of International Economics 83 (2011) 229–242
+241
+industry portions of trade decline, but the remaining trade is all inter- industry (world average GL index becomes 0.03).
+Trade virtually disappears in some industries, such as Food. The least reduction of trade occurs in the Machinery and Textile industries, likely because the strength of the industry-level comparative advantage is greater in those industries. But even in the Machinery industry, the remaining trade is only 10% of its current level.
+These results coincide with what we know about export behavior of individual producers (see Section 2 for references). We know that trade is driven by outstanding producers. In any country, the average producer does not export. Only producers that are signiﬁcantly more efﬁcient than the average are able to overcome the trade costs and be competitive in foreign markets. By increasing θ, we make all producers mediocre. Therefore, trade virtually disappears.
+The results of this section also show that as countries become more similar to each other in terms of factor endowments and industry-level technology parameters, they begin to trade more, not less. The size of intra-industry trade increases, while the size of inter-industry trade declines. The total volume of trade between countries, however, becomes higher.56
+6. Conclusion
+This paper uses simulation to study the effects of technology and capital endowment on the specialization of countries. The main distinguishing feature of the model developed to perform simulations is that it does not require the Armington assumption to explain intra- industry trade. Instead, it explains intra-industry trade by producer heterogeneity using the methodology of Eaton and Kortum on the industry level. While the focus of this paper is on specialization, the rich structure of the model makes it useful for investigations of various aspects of the economy.
+The paper shows how specialization of countries changes in response to changes in technology and capital stock. The effect of technology is fairly straight-forward: better technology leads to greater industry share. The effects of capital stock are more complex with some industries growing and some shrinking in response to higher capital stock. An interesting result is that the effects of capital stock are weakly related to the capital intensities of industries, along the lines of Romalis (2004).
+One of the key results of the paper is that the changes in specialization in response to technology and capital stock are very different across countries. Even the direction of the changes can be different across countries.
+One implication of this result is that cross-country average changes, such as those estimated by some regression methodologies, have little usefulness. They cannot be interpreted as the “typical” changes in specialization, cannot be used to forecast the changes in specialization in any particular country or to gauge the importance of any determinant of specialization. Such averages are also very sensitive to the composition of the sample, as this paper demonstrates.
+The paper evaluates the accuracy of the model's predictions to make sure that the simulation results are sensible. The evaluation focuses on the ability of the model to accurately reproduce the relationship between capital stock and specialization. To perform this evaluation, the model is used to simulate the historical changes in specialization in 1975–95. The forecasts are accessed by direct comparison with the actual data and by using the framework of Harrigan (1997) to estimate the semielasticities of specialization with respect to capital stock. The results show that the model is able to accurately predict changes in specialization in response to changes in capital stock.
+Finally, the paper looks at the effects of capital endowments and technology on the volume of trade. It ﬁnds that capital endowment
+56 Removing absolute advantages by setting Tij = T i increases the world trade by about 20%. Again, as countries become more similar, they trade more.
+differences and industry-level comparative advantages have little effect on the volume of trade. As countries become more similar in terms of factor endowments and as industry-level comparative advantages weaken, inter-industry trade between countries reduces, but intra- industry trade increases to compensate. Producer-level productivity differences, on the other hand, have a very signiﬁcant effect on the volume of trade. Removing these differences virtually eliminates intra- industry trade and signiﬁcantly reduces inter-industry trade.
+Acknowledgment
+The author would like to thank Jonathan Eaton, Simon Gilchrist, Tolga Ergün, the anonymous referees, and seminar participants at various institutions for their comments and suggestions.
+References
+691–751.
+Anderson, J.E., van Wincoop, E., 2004. Trade costs. Journal of Economic Literature 3,
+Armington, P.S., 1969. A theory of demand for products distinguished by place of
+production. IMF Staff Papers 16 (1), 159–178.
+Aw, B.Y., Chung, S., Roberts, M.J., 1998. Productivity and the decision to export:
+Evidence from Taiwan and South Korea. NBER Working Paper No. 6558.
+Baltagi, B.H., 2001. Econometric Analysis of Panel Data, 2nd ed. John Wiley and Sons. Barro, R.J., Lee, J.-W., 2000. International data on educational attainment: updates and
+implications. Manuscript, Harvard University.
+Bernard, A.B., Jensen, B.J., 1995. Exporters, jobs, and wages in U.S. manufacturing:
+1976–1987. Brookings Papers on Economic Activity: Microeconomics.
+Bernard, A.B., Jensen, B.J., 1999. Exceptional exporter performance: cause, effect, or
+both? Journal of International Economics 47.
+Bernard, A., Eaton,
+J.,
+Jensen,
+J.B., Kortum, S., 2003. Plants and productivity in
+international trade. American Economic Review 93 (4).
+Brown, D.K., 1987. Tariffs, the terms of trade, and national product differentiation.
+Journal of Policy Modeling 9 (3), 503–526.
+Canova, F., Ortega, E., 2000. Testing calibrated general equilibrium models. In: Mariano, R., Schuermann, T., Weeks, M.J. (Eds.), Simulation-Based Inference in Econometrics: Methods and Applications. Cambridge University Press, pp. 400–436. chapter 15. Caves, D.W., Christensen, L.R., Diewert, W.E., 1982. Multilateral comparisons of output, input, and productivity using superlative index numbers. The Economic Journal 92 (365), 73–86.
+Chor, D., 2009. Unpacking sources of comparative advantage: a quantitative approach.
+Manuscript, Singapore Management University.
+Christensen, L.R., Cummings, D., Jorgenson, D.W., 1981. Relative productivity levels, 1947–1973: an international comparison. European Economic Review 16, 61–94. Clerides, S., Lach, S., Tybout, J.R., 1998. Is learning by exporting important? Micro-dynamic
+evidence from Colombia, Mexico, and Morocco. Quarterly Journal of Economics 67.
+Costinot, A., Komunjer, I., 2006. What Goods Do Countries Trade? New Ricardian
+predictions, Manuscript, University of California at San Diego.
+Eaton, J., Kortum, S., 1999. International technology diffusion: theory and measure-
+ment. International Economic Review 40, 537–570.
+Eaton, J., Kortum, S., 2002. Technology, geography, and trade. Econometrica 5, 1741–1779. Eaton, J., Kortum, S., Kramarz, F., 2004. An anatomy of international trade: evidence
+from French ﬁrms. NBER Working Paper No. 10344.
+Ethier, W., 1982. The general role of factor intensity in the theorems of international
+trade. Economics Letters 10, 337–342.
+Feenstra, R.C., 1997. World trade ﬂows, 1970–1992, with production and tariff data.
+NBER Working Paper 5910.
+Feenstra, R.C., 2000. World trade ﬂows, 1980–1997, with production and tariff data. UC
+David, Center for International Data website.
+Finicelli, A., Pagano, P., Sbracia, M., 2007. Trade-revealed TFP. Manuscript, Bank of Italy. Grubel, H.G., Lloyd, P.J., 1975. Intra industry trade. Macmillan. Harrigan,
+J., 1997. Technology, factor supplies, and international specialization:
+estimating the neoclassical model. The American Economic Review 4, 475–494. Harrigan, J., 2003. Specialization and the volume of trade: do the data obey the laws? In: Choi, K., Harrigan, J. (Eds.), The Handbook of International Trade. Basil Blackwell. Previously published as FRBNY Staff Report No. 140.
+Hirschman, A.O., 1958. The Strategy of Economic Development. Yale University Press,
+New Haven, CT.
+Johnson, N.L., Kotz, S., 1970. Continuous Univariate Distributions. Houghton and Mifﬂin. Kehoe, T.J., 2005. An evaluation of the performance of applied general equilibrium models of the impact of NAFTA. In: Kehoe, T.J., Srinivasan, T.N., Whalley, J. (Eds.), Frontiers in Applied General Equilibrium Modeling. Cambridge University Press.
+Kortum, S., 1997. Research, patenting, and technological change. Econometrica 65,
+1389–1419.
+Leamer, E.E., Levinsohn, J., 1995. International trade theory: The evidence. In: Grossman, G., Rogoff, K. (Eds.), Handbook of International Economics, pp. 1339–1394. North-Holland, Amsterdam.
+McDaniel, C.A., Balistreri, E.J., 2003. A review of Armington trade substitution
+elasticities. Integration and trade 7 (18), 161–173.242
+S. Shikher / Journal of International Economics 83 (2011) 229–242
+Panagariya, A., Duttagupta, R., 2001. The “gains” from preferential trade liberalization in the CGE models: Where do they come from? In: Lahiri, S. (Ed.), Regionalism and Globalization: Theory and Practice. Routledge. chapter 3.
+Pindyck, R.S., Rubinfeld, D.L., 1998. Econometric Models and Economic Forecasts, fourth ed.
+Romalis, J., 2004. Factor proportions and the structure of commodity trade. American
+Irvin/McGraw-Hill.
+Economic Review 94 (1).
+Shikher, S., 2004a. An improved measure of industry value added and factor shares: description of a new dataset of the U.S. and Brazilian manufacturing industries. Manuscript, Suffolk University.
+Shikher, S., 2004b. Putting industries into the Eaton–Kortum model. Manuscript,
+Stewart, W.A., 1999. World Trade Data Set Code Book, 1970–1992. Waugh, M.E., 2007. International trade and income differences. Manuscript, Univesity of
+Suffolk University.
+Iowa.
