@@ -8,11 +8,14 @@
 
 ## 使用方法
 
-1. 下载项目文件夹。地址为：
+1. 下载本项目文件夹到本地。地址为：
 
-2. 在[百度翻译开放平台 (baidu.com)](https://api.fanyi.baidu.com/product/11)申请通用翻译API（每月免费额度为2000万字符），获得 APP ID和密钥
+   1. 国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git
+   2. 海外：https://github.com/Humoonruc/translate-pdf-node.git
 
-3. 在项目文件夹的 `/scripts/` 子文件夹中，新建 `config.js` 文件，写入以下内容，并填入刚刚申请的百度翻译 APP ID 和密钥，并选择源文件语言和目标语言
+2. 在百度翻译开放平台（https://api.fanyi.baidu.com/product/11）申请通用翻译API（每月免费额度为2000万字符），获得 APP ID和密钥
+
+3. 在项目文件夹的 `/scripts/` 子文件夹中，新建 `config.js` 文件，写入以下内容，并填入刚刚申请好的百度翻译 APP ID 和密钥，以及根据需求调整源文件语言和目标语言的参数码
 
    ```js
    // config.js
@@ -23,7 +26,7 @@
    module.exports.SOURCE_LANGUAGE = 'en'; // 要翻译的 pdf 源文件语言
    module.exports.TARGET_LANGUAGE = 'zh'; // 要翻译的目标语言
    
-   /* 语言参数列表如下：
+   /* 语言参数码：
    自动检测	auto
    英语	en
    简体中文	zh
@@ -68,7 +71,7 @@
    node index.js
    ```
 
-   然后等待程序运行完毕即可
+   然后等待程序运行完毕即可。翻译完成的 md 文件位于 `/md/translate-result/`子文件夹中，这是一种文本文件，用记事本即可打开。
 
 ## 程序流程
 
