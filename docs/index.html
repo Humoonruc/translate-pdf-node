@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><p>[TOC]</p>
+<h2>外文 PDF 批量自动翻译项目——Node.js 版</h2>
+<h3>使用方法</h3>
+<ol>
+<li>
+<p>下载或克隆（<code>git clone</code>）项目文件夹到本地。项目地址为：</p>
+<ol>
+<li>国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git</li>
+<li>海外：https://github.com/Humoonruc/translate-pdf-node.git</li>
+</ol>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/git-clone.gif" alt="git-clone"></p>
+</li>
+<li>
+<p>在百度翻译开放平台（https://api.fanyi.baidu.com/product/11）申请通用翻译API（每月免费额度为2000万字符），获得 APP ID和密钥</p>
+</li>
+<li>
+<p>在项目文件夹的 <code>/scripts/</code> 子文件夹中，新建 <code>config.js</code> 文件，写入以下内容，并填入刚刚申请好的百度翻译 APP ID 和密钥，以及根据需求调整源文件语言和目标语言的参数码</p>
+<pre class="prettyprint source lang-js"><code>// config.js
+
+module.exports.BAIDU_TRANSLATE_ID = 'APP ID';
+module.exports.BAIDU_TRANSLATE_KEY = '密钥';
+module.exports.BAIDU_TRANSLATE_API_URL = 'http://api.fanyi.baidu.com/api/trans/vip/translate';
+module.exports.SOURCE_LANGUAGE = 'en'; // 要翻译的 pdf 源文件语言
+module.exports.TARGET_LANGUAGE = 'zh'; // 要翻译的目标语言
+
+/* 语言参数码：
+自动检测	auto
+英语	en
+简体中文	zh
+繁体中文	cht
+文言文	wyw
+日语	jp
+韩语	kor
+法语	fra
+西班牙语	spa
+阿拉伯语	ara
+俄语	ru
+葡萄牙语	pt
+德语	de
+意大利语	it
+希腊语	el
+荷兰语	nl
+波兰语	pl
+泰语	th
+越南语	vie
+*/
+</code></pre>
+</li>
+<li>
+<p>在计算机中安装 <code>Node.js</code>（下载地址：<a href="https://nodejs.org/en/">Node.js (nodejs.org)</a>） 和 <code>Python</code>（下载地址：<a href="https://www.python.org/downloads/">Download Python | Python.org</a> ）的最新版本</p>
+</li>
+<li>
+<p>安装所需的 node 第三方模块：打开终端（如 Windows 上的命令提示符），切换到项目文件夹根目录，输入</p>
+<pre class="prettyprint source lang-shell"><code>npm install
+</code></pre>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/npm-install.gif" alt="npm-install"></p>
+</li>
+<li>
+<p>安装所需的 python 第三方库：继续在终端输入</p>
+<pre class="prettyprint source lang-shell"><code>pip install pdfminer.six
+</code></pre>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210524185248516.png" alt="image-20210524185248516"></p>
+</li>
+<li>
+<p>将想要翻译的外文 pdf 文件放入项目文件夹的 <code>/pdf/</code> 子文件夹</p>
+</li>
+<li>
+<p>在终端中切换到项目文件夹根目录，输入：</p>
+<pre class="prettyprint source lang-shell"><code>node index.js
+</code></pre>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/node-index.gif" alt="node-index"></p>
+<p>然后等待程序运行完毕即可。翻译完成的 md 文件位于 <code>/md/translate-result/</code>子文件夹中，这是一种文本文件，用记事本即可打开。</p>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/translated.gif" alt="translated"></p>
+</li>
+</ol>
+<h3>程序流程</h3>
+<ol>
+<li>使用 Node 模块<code>child_process</code>调用系统终端开启子进程，如此可以广泛地调用各种语言编写的脚本文件。</li>
+<li>修改 pdf 文件名。学术论文的文件名中常有许多空格，会给程序运行带来极大隐患，故首先将所有的空格用连字符<code>-</code>替换。</li>
+<li>使用 Python 第三方库<code>pdfminer.six</code>，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。在解析 pdf 领域，pdfminer 似乎是目前最好的第三方库，我在 npm 上找了很久，都没有找到性能与之接近的 JavaScript 模块。</li>
+<li>使用 Node 模块<code>x2js</code>，将 xml 文件转换为易操作的 json 文件。</li>
+<li>从 json 中提取结构化的字符信息，重新整合为行、段、页、篇，并保存为 txt 纯文本文件。</li>
+<li>运用正则表达式解析文本，从 txt 文件中提取文章主体（不要参考文献），以及 abstract、keywords、Introduction、conclusion 等重要信息，保存为 md 文件。</li>
+<li>调用云计算商提供的翻译 api，翻译英文文本，将翻译结果保存为 md 文件。</li>
+</ol>
+<p>本项目中，原始 pdf 文档的格式经历了如下变化：pdf-&gt;xml-&gt;json-&gt;txt-&gt;md，最大限度地保留了 pdf 文本的结构信息。</p>
+<p>如此批量翻译外文 pdf 文件，可以极大地减轻泛读文献、报告的压力。</p>
+<h3>优化方向</h3>
+<p>本项目的初版借鉴过 GitHub 上的一个自动生成综述的开源项目。那个作者的代码层级过深，再加上 Python 强制要求4格缩进，后面就出现了缩进地狱，可读性非常差：</p>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/%E7%BC%A9%E8%BF%9B%E5%9C%B0%E7%8B%B12.png" alt="缩进地狱2"></p>
+<p>因此本项目的新版将编程语言从 Python 切回了用大括号和分号间隔代码块的 JavaScript，在代码的组织上也充分利用了模块系统，写起来顺手了很多，代码的逻辑性和可读性都大大增强了。</p>
+<p><img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210525091818415.png" alt="image-20210525091818415"></p>
+<p>但这个小工具使用起来仍然不是太方便，安装流程也不够傻瓜化。以后假如有时间，考虑写成网页版，用户输入自己的账号密码，把 PDF 往网页里一扔，过一会儿就能返回可供下载的结果，这是最好的。</p>
+<p>但这貌似是砸某些人的饭碗呀！</p>
+<p>各大公司的 PDF 全文翻译服务卖到现在这种高价，简直无良。希望这个价格以后能降下来，我又何必做这种小工具呢。</p></article>
+    </section>
+
+
+
+
+
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>baiduAPI.js</h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">定义翻译API</div>
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Humoonruc</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="baiduAPI.js.html">baiduAPI.js</a>, <a href="baiduAPI.js.html#line1">line 1</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#sleep">sleep</a></li><li><a href="global.html#translateFile">translateFile</a></li><li><a href="global.html#translateResults">translateResults</a></li><li><a href="global.html#translateServerResponse">translateServerResponse</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.7</a> on Tue May 25 2021 15:20:38 GMT+0800 (中国标准时间)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
