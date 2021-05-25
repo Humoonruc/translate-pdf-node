@@ -1,4 +1,8 @@
-//xml2json.js
+/**
+ * @module xml2json
+ * @file 将xml文件转化为json文件
+ * @author Humoonruc
+ */
 
 const fs = require("fs");
 const X2JS = require('x2js');
