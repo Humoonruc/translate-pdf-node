@@ -12,6 +12,7 @@
 
    1. 国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git
    2. 海外：https://github.com/Humoonruc/translate-pdf-node.git
+   3. 可复用 API：https://humoonruc.github.io/translate-pdf-node/
 
    ![git-clone](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/git-clone.gif)
 
