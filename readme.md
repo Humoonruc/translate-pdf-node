@@ -87,7 +87,7 @@
 
 1. 使用 Node 模块`child_process`调用系统终端开启子进程，如此可以广泛地调用各种语言编写的脚本文件。
 2. 修改 pdf 文件名。学术论文的文件名中常有许多空格，会给程序运行带来极大隐患，故首先将所有的空格用连字符`-`替换。
-3. 使用 Python 第三方库`pdfminer.six`，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。
+3. 使用 Python 第三方库`pdfminer.six`，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。在解析 pdf 领域，pdfminer 似乎是目前最好的第三方库，我在 npm 上找了很久，都没有找到性能与之接近的 JavaScript 模块。
 4. 使用 Node 模块`x2js`，将 xml 文件转换为易操作的 json 文件。
 5. 从 json 中提取结构化的字符信息，重新整合为行、段、页、篇，并保存为 txt 纯文本文件。
 6. 运用正则表达式解析文本，从 txt 文件中提取文章主体（不要参考文献），以及 abstract、keywords、Introduction、conclusion 等重要信息，保存为 md 文件。
@@ -99,7 +99,13 @@
 
 ## 优化方向
 
-这一版相比上一版有若干变化。主要是因为使用的编程语言，从 Python 切回了我最熟悉的 JavaScript，写起来顺手了很多。因此这一版程序在逻辑性和可读性上都大大增强了，其中的一些函数还可以拿到其他场合实现复用。
+本项目的初版借鉴过 GitHub 上的一个自动生成综述的开源项目。那个作者的代码层级过深，再加上 Python 强制要求4格缩进，后面就出现了缩进地狱，可读性非常差：
+
+![缩进地狱2](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/缩进地狱2.png)
+
+因此本项目的新版将编程语言从 Python 切回了用大括号和分号间隔代码块的 JavaScript，在代码的组织上也充分利用了模块系统，写起来顺手了很多，代码的逻辑性和可读性都大大增强了。
+
+![image-20210525091818415](http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210525091818415.png)
 
 但这个小工具使用起来仍然不是太方便，安装流程也不够傻瓜化。以后假如有时间，考虑写成网页版，用户输入自己的账号密码，把 PDF 往网页里一扔，过一会儿就能返回可供下载的结果，这是最好的。
 

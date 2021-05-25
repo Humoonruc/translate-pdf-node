@@ -1,3 +1,5 @@
+//@ts-check
+'use strict';
 //json2txt.js
 
 const fs = require("fs");
@@ -16,7 +18,7 @@ let pageArray = jsonObj.pages.page; // 所有页
 if (!Array.isArray(pageArray)) { pageArray = [pageArray]; } // 若只有一页，为了用数组的高阶函数，必须把页对象化为数组
 const wholeText = pageArray.map(page => { // 每一页
 
-  let boxArray = page.textbox; // page.textbox是该页所有的文本块（一个文本块一般是一个段落）
+  let boxArray = page.textbox; // 该页所有的文本块（一个文本块一般是一个段落）
   if (!Array.isArray(boxArray)) { boxArray = [boxArray]; }
   const pageString = boxArray.map(box => { // 每一个文本块
 
