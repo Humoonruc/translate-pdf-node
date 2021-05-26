@@ -87,12 +87,24 @@
 ### 程序流程
 
 1. 使用 Node 模块`child_process`调用系统终端开启子进程，如此可以广泛地调用各种语言编写的脚本文件。
+
 2. 修改 pdf 文件名。学术论文的文件名中常有许多空格，会给程序运行带来极大隐患，故首先将所有的空格用连字符`-`替换。
+
 3. 使用 Python 第三方库`pdfminer.six`，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。在解析 pdf 领域，pdfminer 似乎是目前最好的第三方库，我在 npm 上找了很久，都没有找到性能与之接近的 JavaScript 模块。
+
 4. 使用 Node 模块`x2js`，将 xml 文件转换为易操作的 json 文件。
+
 5. 从 json 中提取结构化的字符信息，重新整合为行、段、页、篇，并保存为 txt 纯文本文件。
+
 6. 运用正则表达式解析文本，从 txt 文件中提取文章主体（不要参考文献），以及 abstract、keywords、Introduction、conclusion 等重要信息，保存为 md 文件。
-7. 调用云计算商提供的翻译 api，翻译英文文本，将翻译结果保存为 md 文件。
+
+7. 调用云计算商提供的翻译 api，翻译英文文本，将翻译结果保存为 md 文件。这一步有两种实现方式：
+
+   1. 可以用同步 API，以串行方式依次翻译每个文件。
+   2. 也可以用异步 API，开启事实上的并行进程，同时翻译多个文件以提高效率。并行翻译的效率虽高，但访问服务器的频率过高，有可能被服务器拒绝响应，甚至被封杀 IP.
+   3. 两种代码都写在根目录源文件 `index.js` 中，用户可以根据需要使用一种，而注释掉一种。
+
+   <img src="http://humoon-image-hosting-service.oss-cn-beijing.aliyuncs.com/img/typora/JavaScript/image-20210526144207792.png" alt="image-20210526144207792" style="zoom: 50%;" />
 
 本项目中，原始 pdf 文档的格式经历了如下变化：pdf->xml->json->txt->md，最大限度地保留了 pdf 文本的结构信息。
 
