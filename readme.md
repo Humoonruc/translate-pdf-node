@@ -8,7 +8,7 @@
 
 ### 使用方法
 
-1. 下载或克隆（`git clone`）项目文件夹到本地。项目地址为：
+1. 下载或克隆（安装 [Git](https://git-scm.com/downloads) 并使用`git clone`命令）项目文件夹到本地。项目地址为：
 
    1. 国内：https://e.coding.net/humoonruc/node.js-demo/translate-pdf-node.git
    2. 海外：https://github.com/Humoonruc/translate-pdf-node.git
@@ -90,7 +90,7 @@
 
 2. 修改 pdf 文件名。学术论文的文件名中常有许多空格，会给程序运行带来极大隐患，故首先将所有的空格用连字符`-`替换。
 
-3. 使用 Python 第三方库`pdfminer.six`，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。在解析 pdf 领域，pdfminer 似乎是目前最好的第三方库，我在 npm 上找了很久，都没有找到性能与之接近的 JavaScript 模块。
+3. 使用 Python 第三方库`pdfminer.six`，将 pdf 文件解析为 xml 文件，尽最大可能恢复文档的结构。在解析 pdf 领域，pdfminer 似乎是目前最好的第三方库，我在 npm 上找了很久，都没有找到性能与之接近的 Node 模块。
 
 4. 使用 Node 模块`x2js`，将 xml 文件转换为易操作的 json 文件。
 
